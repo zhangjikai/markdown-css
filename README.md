@@ -5,3 +5,16 @@
 
 [预览该样式](http://zhangjikai.com/markdown-css/)
 
+## 导出html
+Markdown Preview Plus 提供了导出 html 的功能，不过导出后的格式是 xhtml，可以去[这里](https://sourceforge.net/projects/mht2htm/?source=typ_redirect) 下载转换工具，将 xhtml 转为html。 如果运行转换工具时报下面的错误
+```
+./mht2htm: error while loading shared libraries: libgdk_pixbuf-2.0.so.0: cannot open shared object file: No such file or directory
+```
+只要运行下面的命令即可
+```
+sudo apt-get install libgtk2.0-0:i386
+```
+
+## 导出PDF
+导出pdf主要是借助于Chrome的打印功能， 在网页空白处右击， 选择 `打印(P)...` 选项， 出来打印页面后将 **目标打印机** 改为 **另存为PDF** ，同时勾选上 **背景图形** 选项， 如下图:  
+![](export_pdf.png)
