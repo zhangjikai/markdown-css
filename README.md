@@ -7,7 +7,7 @@
   
 **部分截图**
 
-![](capture1.png)
+![](capture1.png)  
 
 ![](capture2.png)
 
