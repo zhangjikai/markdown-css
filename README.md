@@ -7,9 +7,9 @@
   
 **部分截图**
 
-![capture1.png]  
+![](capture1.png)
 
-![capture2.png]
+![](capture2.png)
 
 ## 导出html
 Markdown Preview Plus 提供了导出 html 的功能，不过导出后的格式是 xhtml，可以去 [这里](https://sourceforge.net/projects/mht2htm/?source=typ_redirect) 下载转换工具，将 xhtml 转为html。 如果运行转换工具时报下面的错误
