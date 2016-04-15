@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    font-family: Georgia, Palatino, serif;
+    font-family: "Microsoft YaHei";
     color: #444444;
     line-height: 1;
     padding: 30px;
@@ -50,7 +50,7 @@ a:hover {
     color: #ff6600;
 }
 a:visited {
-    color: purple;
+    /*color: purple;*/
 }
 ul, ol {
     padding: 0;
