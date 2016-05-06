@@ -20,9 +20,13 @@ h1, h2, h3, h4 {
 h1, h2, h3, h4, h5 {
 	font-family: Georgia, Palatino, serif;
 }
-h1, h2, h3, h4, h5, p , dl{
+h1, h2, h3, h4, h5, dl{
     margin-bottom: 16px;
     padding: 0;
+}
+
+p {
+    margin-bottom: 3px;
 }
 h1 {
     font-size: 48px;
