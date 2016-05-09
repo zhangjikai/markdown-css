@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    font-family: "Microsoft YaHei", arial,sans-serif;
+    font-family: "Comic Sans MS", "Microsoft YaHei", arial,sans-serif;
     color: #444444;
     line-height: 1;
     padding: 30px;
@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, dl{
 }
 
 p {
+    margin-top: 8px;
     margin-bottom: 3px;
 }
 h1 {
@@ -50,7 +51,7 @@ h4 {
 }
 h5 {
     font-size: 18px;
-    list-style: 23px;
+    line-height: 23px;
 }
 a {
     color: #0099ff;
@@ -94,6 +95,7 @@ code {
 }*/
 
 code, pre {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
     border-radius: 3px;
     background-color:#f7f7f7;
     color: inherit;
@@ -105,6 +107,7 @@ code {
 }
 
 pre {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
     line-height: 1.7em;
     overflow: auto;
     padding: 6px 10px;
@@ -112,6 +115,7 @@ pre {
 }
 
 pre > code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
     border: 0;
     display: inline;
     max-width: initial;
