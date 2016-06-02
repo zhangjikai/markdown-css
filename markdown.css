@@ -5,10 +5,14 @@ body{
     line-height: 1;
     padding: 30px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     body {
-        width: 748px;
+        width: 980px;
         margin: 10px auto;
+    }
+
+    img {
+        max-width: 980px;
     }
 }
 h1, h2, h3, h4 {
@@ -96,7 +100,7 @@ code {
 
 code, pre {
     font-family: Consolas, Monaco, Andale Mono, monospace;
-    border-radius: 3px;
+    /*border-radius: 3px;*/
     background-color:#f7f7f7;
     color: inherit;
 }
