@@ -5,15 +5,17 @@ body{
     line-height: 1;
     padding: 30px;
 }
+
+img {
+    max-width: 100%;
+}
 @media screen and (min-width: 1000px) {
     body {
-        width: 980px;
+        width: 842px;
         margin: 10px auto;
     }
 
-    img {
-        max-width: 980px;
-    }
+    
 }
 h1, h2, h3, h4 {
     color: #111111;
@@ -59,9 +61,10 @@ h5 {
 }
 a {
     color: #0099ff;
-    margin: 0;
+    margin: 0 2px;
     padding: 0;
     vertical-align: baseline;
+    text-decoration: none;
 }
 a:hover {
     text-decoration: none;
@@ -72,7 +75,7 @@ a:visited {
 }
 ul, ol {
     padding: 0;
-    padding-left: 24px;
+    padding-left: 18px;
     margin: 0;
 }
 li {
@@ -87,20 +90,8 @@ ol ol, ul ol {
     list-style-type: lower-roman;
 }
 
-/*pre {
-    padding: 0px 24px;
-    max-width: 800px;
-    white-space: pre-wrap;
-}
-code {
-    font-family: Consolas, Monaco, Andale Mono, monospace;
-    line-height: 1.5;
-    font-size: 13px;
-}*/
-
 code, pre {
     font-family: Consolas, Monaco, Andale Mono, monospace;
-    /*border-radius: 3px;*/
     background-color:#f7f7f7;
     color: inherit;
 }
@@ -136,20 +127,6 @@ pre > code {
 code {
     color: #666555;
 }
-
-
-/** markdown preview plus 对于代码块的处理有些问题, 所以使用统一的颜色 */
-/*code .keyword {
-  color: #8959a8;
-}
-
-code .number {
-  color: #f5871f;
-}
-
-code .comment {
-  color: #998
-}*/
 
 aside {
     display: block;
@@ -365,9 +342,9 @@ table {
 }
 table {
     border: solid #ccc 1px;
-    -moz-border-radius: 6px;
+    /*-moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    border-radius: 6px;
+    border-radius: 6px;*/
     /*-webkit-box-shadow: 0 1px 1px #ccc;
     -moz-box-shadow: 0 1px 1px #ccc;
     box-shadow: 0 1px 1px #ccc;   */
@@ -388,26 +365,27 @@ table td, .table th {
 }
 
 table th {
-    background-color: #dce9f9;
+    /*background-color: #dce9f9;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
     background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
     background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
     background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
     background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
-    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);*/
     /*-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
     -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
     box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;*/
     border-top: none;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
     padding: 5px;
+    border-left: 1px solid #ccc;
 }
 
 table td:first-child, table th:first-child {
     border-left: none;
 }
 
-table th:first-child {
+/*table th:first-child {
     -moz-border-radius: 6px 0 0 0;
     -webkit-border-radius: 6px 0 0 0;
     border-radius: 6px 0 0 0;
@@ -431,4 +409,4 @@ table tr:last-child td:last-child {
     -moz-border-radius: 0 0 6px 0;
     -webkit-border-radius: 0 0 6px 0;
     border-radius: 0 0 6px 0;
-}
+}*/
